@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
+  <style>
+    .blue {
+      color: blue;
+    }
+    .red {
+       color: red;
+    }
+  </style>
+</head>
+<body>
+<div class="red blue">123</div>
+<div class="blue red">123</div>
+
+<i class="fa fa-car"></i>
+<i class="fa fa-car" style="font-size: 48px"></i>
+<i class="fa fa-car" style="color: #0f0;"></i>
+<i class="fa fa-car fa-2x"></i>
+<i class="fa fa-car fa-3x"></i>
+<i class="fa fa-car fa-4x"></i>
+<i class="fa fa-car fa-5x"></i>
+
+<input type='button' onclick='showInfo(this)' value='点击一下'/>
+<script>
+  const showInfo =function (a) {
+    console.log(a.style)
+  }
+</script>
+</body>
+</html>
